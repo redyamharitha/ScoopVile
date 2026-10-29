@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoopville - Premium Ice Cream</title>
+    <link rel="stylesheet" href="icecream.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">🍦 Scoopville</div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#flavors">Flavors</a>
+            <a href="#locations">Locations</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Happiness in Every Scoop</h1>
+            <p>
+                Hand-crafted, small-batch ice cream made with
+                the finest ingredients. Life's too short for
+                boring desserts.
+            </p>
+            <a href="#flavors" class="btn">
+                Explore Flavors ↓
+            </a>
+        </div>
+    </section>
+    <section class="flavors" id="flavors">
+
+        <div class="section-heading">
+            <h2>Our Signature Flavors</h2>
+            <p>
+                From timeless classics to bold new creations —
+                there's a scoop for every mood.
+            </p>
+        </div>
+        <div class="flavor-container">
+            <div class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=600&q=80"
+                    alt="Vanilla ice cream">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3>Madagascar Vanilla</h3>
+                        <span>$4.50</span>
+                    </div>
+                    <p>Real vanilla bean flecks in a silky,
+                    rich cream base. The classic done right.</p>
+                    <small>Classic</small>
+                </div>
+            </div>
+            <div class="card">
+                <img
+                    src="data:image/jpeg;base64,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"
+                    alt="Strawberry ice cream">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3>Strawberry Bliss</h3>
+                        <span>$5.00</span>
+                    </div>
+                    <p>Fresh summer strawberries with
+                    a hint of lemon zest.</p>
+                    <small>Fruity</small>
+                </div>
+            </div>
+            <div class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80"
+                    alt="Chocolate ice cream">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3>Dark Chocolate Truffle</h3>
+                        <span>$5.50</span>
+                    </div>
+                    <p>Belgian dark chocolate with
+                    fudge ribbons and cocoa nibs.</p>
+                    <small>Premium</small>
+                </div>
+            </div>
+            <div class="card">
+                <img
+                    src="https://www.keep-calm-and-eat-ice-cream.com/wp-content/uploads/2022/09/Pistachio-ice-cream-hero-06.jpg"
+                    alt="Pistachio ice cream">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3>Sicilian Pistachio</h3>
+                        <span>$6.00</span>
+                    </div>
+                    <p>Roasted pistachios blended into
+                    creamy, nutty gelato.</p>
+                    <small>Nutty</small>
+                </div>
+            </div>
+            <div class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=600&q=80"
+                    alt="Mango ice cream">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3>Mango Tango Sorbet</h3>
+                        <span>$5.00</span>
+                    </div>
+                    <p>A tropical treat made with
+                    sweet mangoes and lime.</p>
+                    <small>Tropical</small>
+                </div>
+            </div>
+            <div class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=600&q=80"
+                    alt="Cookie dough ice cream">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3>Cookie Dough Crunch</h3>
+                        <span>$5.50</span>
+                    </div>
+                    <p>Cookie dough chunks and chocolate
+                    chips in a sweet cream base.</p>
+                    <small>Indulgent</small>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="special" id="locations">
+        <h2>🍨 Weekend Special</h2>
+        <p>
+            Buy 2 scoops, get a third free!
+            Available every Saturday & Sunday at all locations.
+        </p>
+        <a href="#contact" class="btn">Find a Location</a>
+    </section>
+    <footer id="contact">
+        <h3>🍦 Scoopville</h3>
+        <p>© 2026 Scoopville Creamery. All rights reserved.</p>
+
+        <div class="footer-links">
+            <a href="#contact">Privacy Policy</a>
+            <a href="#contact">Careers</a>
+            <a href="#contact">Instagram</a>
+            <a href="#contact">TikTok</a>
+        </div>
+
+        <p class="author">Designed by Redyam Haritha</p>
+    </footer>
+
+</body>
+</html>
